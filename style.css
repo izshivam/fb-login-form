@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#F0F2F5 ;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.container{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 25px;
+}
+
+.container h1{
+    color:#1877F2 ;
+
+}
+
+header{
+    width: 320px;
+    height: 350px;
+   position: absolute;
+   top: 20%;
+   left: 55%;
+   background-color: white;
+}
+
+.box input{
+    width: 75%;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 20px;
+    padding: 13px 18px;
+}
+
+.link{
+    width: 81%;
+    text-align: center;
+    background-color:#1877F2 ;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 9px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link1 {
+    text-align: center;
+    margin-top: 12px;
+
+}
+.link1 a{
+    text-decoration: none;
+    color:#1877F2 ;
+    font-size: 15px;
+}
+
+.link2{
+    width: 50%;
+    margin: 22%;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #36A420;
+    padding: 10px;
+    border-radius: 7px;
+   
+}
+
+.link2 a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.hr-line{
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.box.input-ele:hover {
+    border: 1px solid #1877F2;
+}
+
+input[type=email]:focus {
+    border: 3px solid #1877f2;
+  }
+
+  input[type=password]:focus {
+    border: 3px solid #1877f2;
+  }
+    
